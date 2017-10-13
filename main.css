@@ -1,7 +1,69 @@
+.first{
+	background-color: #606;
+	color: white;
+}
+
+
 .rainbow {
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   color:transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+a{
+	color: #fc9;
+	text-decoration: none;
+}
+
+.second{
+	background-color: #f99;
+}
+
+.tab{
+	background-color: white;
+}
+
+
+ol li:first-of-type + li{					/* tb puede ser solo "li", o tb "div ol li después de los dos puntos, debe ir pegado */
+	color: purple;
+}
+
+
+ol li:first-child{					/* tb puede ser solo "li", o tb "div ol li*/
+	color: #303;
+}
+
+ol li:last-child{					/* tb puede ser solo "li", o tb "div ol li*/ 
+	color: #c9f;
+}
+.caja{
+	background-color:lightblue;
+	padding: 1em;
+	text-align: center;
+	border: 1em purple double;
+}
+
+.caja2{
+	background-color: yellowgreen;
+	padding-top: 1em;
+	margin-top:1em;
+	border: 0.5em purple dotted;
+	visibility: ;
+}
+
+h2{
+
+	text-align: center;
+}
+
+.caja3{
+	background-color: pink;
+	padding: 1em;
+	margin:1em;
+}
+
+body{
+	margin: 0;
 }
